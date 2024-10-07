@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-top: 20px;
 }
 .navigation li a{
     text-decoration: none;
@@ -40,9 +41,18 @@
     line-height: 129.53px;
     text-align: left;
     color: #DB00FF;
-    text-shadow: 4px 4px 0 #FF0070;
-    
+    text-shadow: 4px 4px 0 #FF0070; 
+}
 
+.neon {
+    width: Hug (70px)px;
+    height: Fixed (26px)px;
+    top: 20px;
+    left: 557px;
 
-    
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FF0070;
+    opacity: 0px;
+
 }
