@@ -358,3 +358,48 @@ main {
     text-align: left;
     margin-top: -5px;
 }
+
+.container3 {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 984px;
+    height: 508px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 38px;
+}
+
+.title5sovetov {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    margin-top: 11px;
+    background-color: #ff8dcb;
+    color: #353430;
+    width: 648.92px;
+    height: 23px;
+}
+
+.titlesky {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: #ff8dcb;
+    color: #353430;
+    width: 648.92px;
+    height: 23px;
+    
+}
+.textsky {
+    margin-top: -4px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+}
+
