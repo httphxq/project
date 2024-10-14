@@ -16,7 +16,7 @@ body {
     gap: 0px;
     opacity: 0px;
     background-color: #FFF1F7;
-    font-family: 'IBM Plex Mono', sas;
+    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .content{
