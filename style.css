@@ -37,7 +37,7 @@ header {
 }
 
 .header-container {
-display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     align-items: center;
     gap: 20px;
     width: 1024px;
@@ -481,4 +481,47 @@ main {
     grid-row: 2 / 4;
     margin: 0;
 
+}
+
+footer {
+    width: 1024px;
+    height: 768px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.right-line {
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid #353430;
+    border-right: 1px solid #353430;
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+}
+
+.left-line {
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid #353430;
+    border-left: 1px solid #353430;    
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px; 
+}
+
+.focus {
+    height: 100px;
+    font-size: 157px;
+    line-height: 87.5%;
+    font-weight: bold;
+    font-family: "IBM Plex Mono";
+    color: #FFC2E6;
+    filter: drop-shadow(4px 4px 0 #FF0070);
+    margin-top: 315px;
+    margin-bottom: 0px; 
+    justify-content: center;
+    text-align: center;
 }
